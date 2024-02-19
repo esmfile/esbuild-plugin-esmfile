@@ -1,5 +1,11 @@
 # esbuild-plugin-esmfile
 
+## 0.1.1
+
+### Patch Changes
+
+- esbuild: ^0.20.0 -> ^0.20.1
+
 ## 0.1.0
 
 ### Minor Changes

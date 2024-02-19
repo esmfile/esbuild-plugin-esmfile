@@ -13,7 +13,7 @@ test('esmfile', async ()=>{
 		write: false,
 	}).then(result=>new TextDecoder().decode(result.outputFiles[0].contents))
 	const green_svg = await build({
-		entryPoints: [join(dir, './_fixtures/index.svg.file.ts?icon_stroke=green')],
+		entryPoints: [join(dir, './_fixtures/index.svg.file.ts?stroke=green')],
 		plugins: [esmfile_()],
 		write: false,
 	}).then(result=>new TextDecoder().decode(result.outputFiles[0].contents))

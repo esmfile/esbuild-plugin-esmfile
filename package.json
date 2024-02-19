@@ -1,6 +1,6 @@
 {
 	"name": "esbuild-plugin-esmfile",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "esbuild plugin to build *.<file-extension>.css.ts/*.<file-extension>.css.js files as *.<file-extension> file assets",
 	"keywords": [
 		"binary",
@@ -44,7 +44,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"esbuild": "^0.20.0"
+		"esbuild": "^0.20.1"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
