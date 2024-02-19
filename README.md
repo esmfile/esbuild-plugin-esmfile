@@ -29,6 +29,19 @@ import rocket_launch_svg from './rocket-launch.svg.file.js?stroke=green'
 // rocket_launch_svg is the path to the rocket-launch-[hash].svg
 // file in the esbuild output directory.
 // The stroke of the icon is green.
+export function html_() {
+  return `
+<doctype<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/svg+xml" href="${rocket_launch_svg}"></link>
+  </head>
+  <body>
+    <img src="${rocket_launch_svg}">
+  </body>
+</html>
+  `.trim()
+}
 ```
 
 rocket-launch.svg.file.ts
