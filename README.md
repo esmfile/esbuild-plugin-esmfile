@@ -1,7 +1,7 @@
 [//]: @formatter:off
 # esmfile
 
-esbuild plugin that writes the *.file.ts/*.file.js default function return values to output files.
+Import *.file.ts/*.file.js modules to build files using the file loader...For example, importing rocket-launch.svg.file.ts builds rocket-launch.svg in the build output directory during build time.
 
 ## install
 

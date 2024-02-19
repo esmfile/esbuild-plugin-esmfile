@@ -1,7 +1,7 @@
 {
 	"name": "esbuild-plugin-esmfile",
 	"version": "0.1.1",
-	"description": "esbuild plugin to build *.<file-extension>.css.ts/*.<file-extension>.css.js files as *.<file-extension> file assets",
+	"description": "Import *.file.ts/*.file.js modules to build files using the file loader...For example, importing rocket-launch.svg.file.ts builds rocket-launch.svg in the build output directory during build time.",
 	"keywords": [
 		"binary",
 		"css",
