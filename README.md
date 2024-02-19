@@ -1,7 +1,7 @@
 [//]: @formatter:off
 # esmfile
 
-esbuild plugin to build *.&lt;file-extension> .css.ts/*.&lt;file-extension>.css.js files as *.&lt;file-extension> file assets
+esbuild plugin that writes the *.file.ts/*.file.js default function return values to output files.
 
 ## install
 
