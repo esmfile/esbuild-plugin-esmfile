@@ -34,7 +34,7 @@ export function html_() {
 <doctype<!DOCTYPE html>
 <html>
   <head>
-    <link rel="icon" type="image/svg+xml" href="${rocket_launch_svg}"></link>
+    <link rel="icon" type="image/svg+xml" href="${rocket_launch_svg}">
   </head>
   <body>
     <img src="${rocket_launch_svg}">
