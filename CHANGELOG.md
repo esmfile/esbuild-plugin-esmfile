@@ -1,5 +1,11 @@
 # esbuild-plugin-esmfile
 
+## 0.1.2
+
+### Patch Changes
+
+- reload: fix: update module with new contents
+
 ## 0.1.1
 
 ### Patch Changes

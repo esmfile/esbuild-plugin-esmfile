@@ -1,4 +1,5 @@
 /// <reference types="esbuild" />
+import { stat } from 'node:fs/promises'
 /**
  * @returns {Plugin}
  * @see {https://github.com/evanw/esbuild/issues/3653#issuecomment-1951577552}
@@ -26,8 +27,12 @@ export function esmfile_() {
 				async ({ pluginData })=>{
 					// Load the original path
 					if (!pluginData?.startsWith('esmfile:')) return
-					const path = pluginData.slice('esmfile:'.length)
-					const contents = await import(path).then(mod=>mod.default())
+					const url = new URL('file://' + pluginData.slice('esmfile:'.length))
+					const { pathname } = url
+					const _stat = await stat(pathname)
+					const search = url.search
+					const _search = (search ? search + '&' : '?') + 'esmfile_v=' + _stat.mtimeMs
+					const contents = await import(pathname + _search).then(mod=>mod.default())
 					return { contents, loader: 'file' }
 				}
 			)
