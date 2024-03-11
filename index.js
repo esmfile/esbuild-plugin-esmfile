@@ -32,7 +32,7 @@ export function esmfile_() {
 					const _stat = await stat(pathname)
 					const search = url.search
 					const _search = (search ? search + '&' : '?') + 'esmfile_v=' + _stat.mtimeMs
-					const contents = await import(pathname + _search).then(mod=>mod.default())
+					const contents = await import(pathname + _search).then(mod=>mod.default)
 					return { contents, loader: 'file' }
 				}
 			)

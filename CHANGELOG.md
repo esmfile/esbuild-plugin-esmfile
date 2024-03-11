@@ -1,5 +1,13 @@
 # esbuild-plugin-esmfile
 
+## 0.2.0
+
+### Minor Changes
+
+- export default string instead of function: fix: type error:
+
+      Unable to declare module '*.file.ts' using multiple extnames
+
 ## 0.1.2
 
 ### Patch Changes
