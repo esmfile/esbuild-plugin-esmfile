@@ -1,5 +1,11 @@
 # esbuild-plugin-esmfile
 
+## 0.2.2
+
+### Patch Changes
+
+- package.json: author: url,email
+
 ## 0.2.1
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
 	"name": "esbuild-plugin-esmfile",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"description": "Import *.file.ts/*.file.js modules to build files using the file loader...For example, importing rocket-launch.svg.file.ts builds rocket-launch.svg in the build output directory during build time.",
 	"keywords": [
 		"binary",
@@ -20,7 +20,11 @@
 		"url": "https://github.com/esmfile/esbuild-plugin-esmfile.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-esbuild-plugin-esmfile@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",
