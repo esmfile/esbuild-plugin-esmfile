@@ -51,7 +51,7 @@
 		"esbuild": "^0.21.5"
 	},
 	"devDependencies": {
-		"c8": "^10.1.1",
+		"c8": "^10.1.2",
 		"check-dts": "^0.8.0",
 		"tsx": "^4.15.2",
 		"typescript": "next",
