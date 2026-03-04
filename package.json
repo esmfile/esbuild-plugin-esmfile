@@ -1,6 +1,6 @@
 {
 	"name": "esbuild-plugin-esmfile",
-	"version": "0.2.10",
+	"version": "0.2.11",
 	"description": "Import *.file.ts/*.file.js modules to build files using the file loader...For example, importing rocket-launch.svg.file.ts builds rocket-launch.svg in the build output directory during build time.",
 	"keywords": [
 		"binary",
@@ -48,12 +48,12 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"esbuild": "^0.23.1"
+		"esbuild": "^0.27.3"
 	},
 	"devDependencies": {
-		"c8": "^10.1.3",
-		"check-dts": "^0.8.2",
-		"tsx": "^4.20.6",
+		"c8": "^11.0.0",
+		"check-dts": "^0.9.0",
+		"tsx": "^4.21.0",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
