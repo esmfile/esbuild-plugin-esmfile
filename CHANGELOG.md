@@ -1,5 +1,11 @@
 # esbuild-plugin-esmfile
 
+## 0.2.12
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+
 ## 0.2.11
 
 ### Patch Changes
